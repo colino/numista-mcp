@@ -1,0 +1,23 @@
+{
+  "name": "numista-mcp",
+  "version": "1.0.0",
+  "description": "Numista MCP Server per interrogare il catalogo Numista tramite API v3",
+  "type": "module",
+  "main": "numista-mcp.js",
+  "scripts": {
+    "start": "node numista-mcp.js"
+  },
+  "keywords": [
+    "numista",
+    "mcp",
+    "model-context-protocol",
+    "coins",
+    "numismatics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.7.0"
+  }
+}
